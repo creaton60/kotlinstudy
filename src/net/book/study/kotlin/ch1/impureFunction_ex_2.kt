@@ -7,8 +7,8 @@ package net.book.study.kotlin.ch1
 fun main() {
     //k is 10
 
-    println(impureFunction(1, 2)) // 3 output but k 2
-    println(impureFunction(1, 2)) // 4 output but k 2
+    println(impureFunctionWithSideEffect(1, 2)) // 3 output but k 2
+    println(impureFunctionWithSideEffect(1, 2)) // 4 output but k 2
 }
 
 var k = 10
